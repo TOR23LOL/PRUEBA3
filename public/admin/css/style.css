@@ -1,0 +1,16 @@
+.flex-admin{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.flex-admin1{
+    background-color: black;
+    color: wheat;
+    width: 20%;
+}
+
+.flex-admin2{
+    background-color: blueviolet;
+    width: 80%;
+}
