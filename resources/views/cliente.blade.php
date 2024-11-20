@@ -7,6 +7,7 @@
 </head>
 <body>
     <a href="/informacion"><button>INFORMACIÓN</button></a>
+    <a href="/home2"><button type="button">Cerrar Sesión</button></a>
     <form action="/guardar-informacion" method="post">
         @csrf
         <label for="nombre">Nombre</label><br>
@@ -19,16 +20,3 @@
     </form>
 </body>
 </html>
-    <!--<section>
-        <table>
-            <thead></thead>
-            <tbody>
-                <ul>
-                    @foreach($getCliente as $getCliente)
-                    <li>{{$getCliente->nombre}}</li>
-                    <li>{{$getCliente->apellido}}</li>
-                    @endforeach
-                </ul>
-            </tbody>
-        </table>
-    </section>-->
